@@ -42,6 +42,31 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'devise'
+
+# Administration ruby on rails
+gem 'responders', '~> 3.0', '>= 3.0.1'
+gem 'inherited_resources', '~> 1.13', '>= 1.13.1'
+gem 'activeadmin', '~> 2.9'
+
+# Auth by facebook twitter
+gem 'omniauth-rails_csrf_protection'
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+gem 'omniauth-google-oauth2'
+
+# Upload image 
+gem 'carrierwave', '~> 2.2', '>= 2.2.2'
+
+# Pay
+gem 'stripe'
+
+# Permisions controllers
+gem 'cancancan', '~> 1.15'
+
+# Iternationalization
+gem 'i18n', '~> 1.9', '>= 1.9.1'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
