@@ -1,0 +1,263 @@
+<div class="container flex">
+  <aside class="w-64" aria-label="Sidebar">
+    <div class="overflow-y-auto py-4 px-3 rounded dark:bg-gray-800">
+        <a href="https://flowbite.com/" class="flex items-center pl-2.5 mb-5 space-x-2">
+          <span class="self-center text-xl whitespace-nowrap dark:text-white">Inicio /</span>
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Productos</span>
+        </a>
+        <ul class="space-y-2">
+          <li>
+              <a class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+              <div class="flex-shrink-0 flex items-center">
+                <%= image_tag "icon1.svg", size: "20x20" %>
+              </div>
+                <span class="ml-3">Filtros</span>
+              </a>
+          </li>
+          <li>
+              <button type="button" class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+                    <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item="">PRODUCTO</span>
+                    <svg sidebar-toggle-item="" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </button>
+              <ul id="dropdown-example" class="hidden py-2 space-y-2">
+                    <li>
+                      <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Poleras</a>
+                    </li>
+                    <li>
+                      <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Gorros</a>
+                    </li>
+                    <li>
+                      <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Bolsas</a>
+                    </li>
+              </ul>
+          </li>
+          <li>
+              <button type="button" class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example1" data-collapse-toggle="dropdown-example1">
+                <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item="">ANIME</span>
+                <svg sidebar-toggle-item="" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </button>
+              <ul id="dropdown-example1" class="hidden py-2 space-y-2">
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Kimetsu no Yaiba
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Naruto
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Jujutsu Kaisen
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Jojo’s Bizarre Adventure
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Death Note
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Tokyo Revengers
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Nanatsu no Taizai
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Boku no Hero
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    Dr. Stone
+                  </a>
+                </li>
+              </ul>
+          </li>
+        </ul>
+    </div>
+  </aside>
+  <main class="pt-10 pb-10" style="width: 100%">
+    <div class="flex justify-between ... px-20 pb-10 pt-2">
+      <div>
+        <nav aria-label="Page navigation example">
+          <ul class="inline-flex items-center -space-x-px">
+            <li>
+              <a class="rounded-full mr-2 block py-2 px-3 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                <span class="sr-only">Previous</span>
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+            </li>
+            <li>
+              <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+            </li>
+            <li>
+              <a aria-current="page" class="rounded-full mr-2 z-10 py-2 px-3 leading-tight text-blue-600 bg-blue-50 border border-blue-300 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+            </li>
+            <li>
+              <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+            </li>
+            <li>
+              <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+            </li>
+            <li>
+              <a class="rounded-full mr-2 block py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                <span class="sr-only">Next</span>
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <span class="text-sm text-gray-700 dark:text-gray-400">
+          Mostrando <span class="font-semibold text-gray-900 dark:text-white">1</span> - <span class="font-semibold text-gray-900 dark:text-white">12</span> de <span class="font-semibold text-gray-900 dark:text-white">100</span> Resultados
+        </span>
+      </div>
+      <div>
+        <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+          <ul class="flex flex-col mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <button id="dropdownNavbarLink12" data-dropdown-toggle="dropdownselect12" class="flex color-button-gray justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 rounded">
+                Ordernar por popularidad
+                <svg class="ml-1 w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+              <div id="dropdownselect12" class="hidden z-10 w-100 font-normal bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por popularidad</a>
+                    </li>
+                    <li>
+                      <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por los últimos</a>
+                    </li>
+                    <li>
+                      <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por precio: bajo a alto</a>
+                    </li>
+                    <li>
+                      <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por precio: alto a bajo</a>
+                    </li>
+                  </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <%
+=begin%>
+ <div class="flex pb-9 pt-3">
+      <div class="flex items-center px-20">
+        <div class="flex-1 text-gray-700 text-center px-4 py-2 m-2">
+          <nav aria-label="Page navigation example" class="px-20">
+            <ul class="inline-flex items-center -space-x-px">
+              <li>
+                <a class="rounded-full mr-2 block py-2 px-3 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                  <span class="sr-only">Previous</span>
+                  <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+              </li>
+              <li>
+                <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+              </li>
+              <li>
+                <a aria-current="page" class="rounded-full mr-2 z-10 py-2 px-3 leading-tight text-blue-600 bg-blue-50 border border-blue-300 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+              </li>
+              <li>
+                <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+              </li>
+              <li>
+                <a class="rounded-full mr-2 py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+              </li>
+              <li>
+                <a class="rounded-full mr-2 block py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                  <span class="sr-only">Next</span>
+                  <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex-1 text-gray-700 text-center px-4 py-2 m-2">
+          <span class="text-sm text-gray-700 dark:text-gray-400">
+            Mostrando <span class="font-semibold text-gray-900 dark:text-white">1</span> - <span class="font-semibold text-gray-900 dark:text-white">12</span> de <span class="font-semibold text-gray-900 dark:text-white">100</span> Resultados
+          </span>
+        </div>
+        <div class="flex-1 text-gray-700 text-center px-4 py-2 m-2">
+          <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+            <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <button id="dropdownNavbarLink1" data-dropdown-toggle="dropdownselect" class="flex color-button-gray justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 rounded">
+                  Ordernar por popularidad
+                  <svg class="ml-1 w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                  </svg>
+                </button>
+                <div id="dropdownselect" class="hidden z-10 w-100 font-normal bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                      <li>
+                        <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por popularidad</a>
+                      </li>
+                      <li>
+                        <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por los últimos</a>
+                      </li>
+                      <li>
+                        <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por precio: bajo a alto</a>
+                      </li>
+                      <li>
+                        <a class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ordenar por precio: alto a bajo</a>
+                      </li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> 
+<%
+=end%>
+    <div>
+        <div class="grid grid-cols-3 gap-20 px-20">
+            <% @products.each do |p| %>
+                <div class="max-w-sm rounded overflow-hidden">
+                    <img  id="<%= p.id %>" src="<%= p.image %>" class = "w-full"/>
+                    <div class="py-4">
+                        <p class="text-gray-700 text-base">
+                        <%= p.title %>
+                        </p>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-3xl font-bold text-gray-900 dark:text-white"><%= number_to_currency(p.price) %></span>
+                        <%= link_to add_to_cart_product_path(p) do %>
+                            <p class="text-white color-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Carrito +
+                            </p>
+                        <% end%>
+                    </div>
+                </div>
+            <% end %> 
+        </div>
+    </div>
+    
+  </main>
+  
+</div>
+

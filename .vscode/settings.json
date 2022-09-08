@@ -1,0 +1,6 @@
+{
+    "workbench.settings.editor": "ui",
+    "files.associations": {
+        "*.html.erb": "html"
+    }
+}

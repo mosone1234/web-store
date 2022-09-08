@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.color-primary {
+  background: #CCFFC4;
+}
+.color-secondary {
+  background: #75BC74;
+}
+
+.text-color-primary {
+  color: #303030;
+}
+
+.color-button {
+  background-color: #303030;
+}
+
+.color-button-gray {
+  background-color: #EEEEEE;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.image-size {
+  width: 100% !important;
+  height: 100vh;
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.image-size-fifty {
+  width: 100% !important;
+  height: 50vh;
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.image-size-si {
+  width: 100% !important;
+  height: 70vh;
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.image-size-fifty-si {
+  width: 100% !important;
+  height: 35vh;
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.show {
+  display: block;
+}
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/

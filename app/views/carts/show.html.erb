@@ -1,0 +1,44 @@
+<div class="overflow-x-auto relative pt-10 pb-10">
+  <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+    <thead
+      class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th scope="col" class="py-3 px-6">Nombre de Producto</th>
+        <th scope="col" class="py-3 px-6">Cantidad</th>
+        <th scope="col" class="py-3 px-6">Precio</th>
+        <th scope="col" class="py-3 px-6">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @cart.cartships.each do |cartship| %>
+      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+        <th
+          scope="row"
+          class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+        >
+          <%= cartship.product.title %>
+        </th>
+        <td class="py-4 px-6"><%= cartship.quantity %></td>
+        <td class="py-4 px-6">
+          <%= number_to_currency(cartship.product.price) %>
+        </td>
+        <td class="py-4 px-6">
+          <%= number_to_currency(cartship.product.price * cartship.quantity) %>
+        </td>
+      </tr>
+      <% end %>
+      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+        <th
+          scope="row"
+          class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+        >
+          Total
+        </th>
+        <td></td>
+        <td></td>
+        <td class="py-4 px-6"><%= number_to_currency(@cart.total_price) %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
