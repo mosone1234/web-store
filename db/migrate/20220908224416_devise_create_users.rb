@@ -24,6 +24,10 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       ## Image
       t.string :image
 
+      ## add_omniauth_to_users
+      t.string :provider
+      t.string :uid
+
       ## Confirmable
       # t.string   :confirmation_token
       # t.datetime :confirmed_at

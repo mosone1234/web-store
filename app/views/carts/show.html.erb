@@ -5,6 +5,7 @@
     >
       <tr>
         <th scope="col" class="py-3 px-6">Nombre de Producto</th>
+        <th>Image</th>
         <th scope="col" class="py-3 px-6">Cantidad</th>
         <th scope="col" class="py-3 px-6">Precio</th>
         <th scope="col" class="py-3 px-6">Total</th>
@@ -19,6 +20,9 @@
         >
           <%= cartship.product.title %>
         </th>
+        <td>
+          <img src="<%= cartship.product.image %>" class="object-cover h-60 w-40"/>
+        </td>
         <td class="py-4 px-6"><%= cartship.quantity %></td>
         <td class="py-4 px-6">
           <%= number_to_currency(cartship.product.price) %>
@@ -35,6 +39,7 @@
         >
           Total
         </th>
+        <td></td>
         <td></td>
         <td></td>
         <td class="py-4 px-6"><%= number_to_currency(@cart.total_price) %></td>

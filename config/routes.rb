@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   namespace :home do
     resource :devise
   end
+  
   # Defines the root path route ("/")
   root to: "home#index"
   resources :carts
@@ -21,4 +22,5 @@ Rails.application.routes.draw do
       get :add_to_cart
     end
   end
+  
 end

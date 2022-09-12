@@ -67,6 +67,11 @@
   display: block;
 }
 
+#fotter {
+  position: absolute;
+  width: 100%;
+}
+
 /*
 
 @layer components {
