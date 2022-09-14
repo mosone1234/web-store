@@ -116,6 +116,10 @@ GEM
       responders
       warden (~> 1.2.3)
     digest (3.1.0)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.11.0)
     faraday (2.5.2)
       faraday-net_http (>= 2.0, < 3.1)
@@ -356,6 +360,7 @@ DEPENDENCIES
   carrierwave (~> 2.2, >= 2.2.2)
   debug
   devise
+  dotenv-rails
   i18n (~> 1.9, >= 1.9.1)
   importmap-rails
   inherited_resources (~> 1.13, >= 1.13.1)

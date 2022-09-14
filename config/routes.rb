@@ -16,11 +16,21 @@ Rails.application.routes.draw do
   
   # Defines the root path route ("/")
   root to: "home#index"
-  resources :carts
+  resources :carts do
+    member do
+      post :pay
+    end
+  end
+  namespace :purchase do
+    resources :checkouts
+  end
   resources :products do
     member do
       get :add_to_cart
     end
   end
+
+  get "success", to: "purchase/checkouts#success"
+  get "cancel", to: "purchase/checkouts#cancel"
   
 end

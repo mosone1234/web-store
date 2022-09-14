@@ -47,3 +47,23 @@
     </tbody>
   </table>
 </div>
+
+<section>
+  <div class="product">
+    <img src="https://i.imgur.com/EHyR2nP.png" alt="The cover of Stubborn Attachments" />
+    <div class="description">
+      <h3>Stubborn Attachments</h3>
+      <h5>$20.00</h5>
+    </div>
+  </div>
+  <%= form_tag pay_cart_path(@cart), method: :post, data: { turbo: false } do %>
+    <%= button_tag "Pagar con Tarjeta", class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" %>
+    <!-- <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+            data-description="sdf dfdfdmfkdfkdfd "
+            data-amount="1000"
+            data-email="xhosfirst@gmail.com"
+            data-bitcoin="true" 
+            data-locale="auto"></script> -->
+  <% end %>
+</section>
